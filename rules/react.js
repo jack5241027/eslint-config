@@ -104,7 +104,7 @@ module.exports = {
 
     "react/no-danger": "warn",
 
-    "react/no-deprecated": ["error"],
+    "react/no-deprecated": ["warn"],
 
     "react/no-did-mount-set-state": ["error"],
 
@@ -218,7 +218,7 @@ module.exports = {
     },
     react: {
       pragma: "React",
-      version: "16.0"
+      version: "16.3"
     }
   }
 };

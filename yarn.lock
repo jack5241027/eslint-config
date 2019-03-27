@@ -457,6 +457,11 @@ eslint-plugin-jsx-a11y@^6.1.2:
     has "^1.0.3"
     jsx-ast-utils "^2.0.1"
 
+eslint-plugin-no-mixed-operators@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-no-mixed-operators/-/eslint-plugin-no-mixed-operators-1.1.1.tgz#591dceb183fa4ba093e36b28f5263fb7c75430d3"
+  integrity sha512-KN4xHa+yZnsfsdmjCP8eCcfdAMXDaphn5Mdnre3b6pRDfAJc3pGXq0Wbl+RfrpjkxA3KlGku1BVwTvHlG5KNpA==
+
 eslint-plugin-react@^7.12.4:
   version "7.12.4"
   resolved "https://registry.yarnpkg.com/eslint-plugin-react/-/eslint-plugin-react-7.12.4.tgz#b1ecf26479d61aee650da612e425c53a99f48c8c"
