@@ -1,9 +1,9 @@
 {
   "name": "@jack5241027/eslint-config",
-  "version": "0.7.0",
+  "version": "0.1.1",
   "description": "Jack5241027 personal eslint config.",
   "main": "index.js",
-  "author": "JackChan",
+  "author": "Jack Chan <jack5241027@gmail.com>",
   "license": "MIT",
   "peerDependencies": {
     "babel-eslint": "^10.0.1",
@@ -15,5 +15,17 @@
   },
   "engines": {
     "node": ">= 8"
+  },
+  "dependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.12.1",
+    "eslint-plugin-babel": "^5.3.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-no-mixed-operators": "^1.1.1",
+    "eslint-plugin-react": "^6.10.3"
+  },
+  "devDependencies": {
+    "eslint": "^5.12.1",
+    "react": "^16.7.0"
   }
 }
