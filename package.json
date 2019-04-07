@@ -1,6 +1,6 @@
 {
   "name": "@jack5241027/eslint-config",
-  "version": "0.1.4",
+  "version": "0.1.6",
   "description": "Jack5241027 personal eslint config.",
   "main": "index.js",
   "author": "Jack Chan <jack5241027@gmail.com>",

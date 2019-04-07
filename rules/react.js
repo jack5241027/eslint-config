@@ -1,5 +1,5 @@
 module.exports = {
-  plugins: ["react"],
+  plugins: ["react", "react-hooks"],
   parserOptions: {
     ecmaFeatures: {
       jsx: true
@@ -207,7 +207,10 @@ module.exports = {
     "react/no-array-index-key": "off",
 
     // Enforce a defaultProps definition for every prop that is not a required prop
-    "react/require-default-props": "off"
+    "react/require-default-props": "off",
+
+    "react-hooks/rules-of-hooks": "error", // Checks rules of Hooks
+    "react-hooks/exhaustive-deps": "warn" // Checks effect dependencies
   },
 
   settings: {
